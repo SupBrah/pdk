@@ -199,19 +199,19 @@ module PDK
               'RedHat based Linux' => [
                 {
                   'operatingsystem'        => 'CentOS',
-                  'operatingsystemrelease' => ['6', '7'],
+                  'operatingsystemrelease' => %w[6 7],
                 },
                 {
                   'operatingsystem'        => 'OracleLinux',
-                  'operatingsystemrelease' => ['6', '7'],
+                  'operatingsystemrelease' => %w[6 7],
                 },
                 {
                   'operatingsystem'        => 'RedHat',
-                  'operatingsystemrelease' => ['5', '6', '7'],
+                  'operatingsystemrelease' => %w[5 6 7],
                 },
                 {
                   'operatingsystem'        => 'Scientific',
-                  'operatingsystemrelease' => ['6', '7'],
+                  'operatingsystemrelease' => %w[6 7],
                 },
                 {
                   'operatingsystem'        => 'Amazon Linux',
@@ -221,7 +221,7 @@ module PDK
               'Debian based Linux' => [
                 {
                   'operatingsystem'        => 'Debian',
-                  'operatingsystemrelease' => ['7', '8', '9'],
+                  'operatingsystemrelease' => %w[7 8 9],
                 },
                 {
                   'operatingsystem'        => 'Ubuntu',
@@ -230,7 +230,7 @@ module PDK
               ],
               'Fedora' => {
                 'operatingsystem'        => 'Fedora',
-                'operatingsystemrelease' => ['25', '26'],
+                'operatingsystemrelease' => %w[25 26],
               },
               'OSX' => {
                 'operatingsystem'        => 'Darwin',
@@ -238,11 +238,11 @@ module PDK
               },
               'SLES' => {
                 'operatingsystem'        => 'SLES',
-                'operatingsystemrelease' => ['11', '12'],
+                'operatingsystemrelease' => %w[11 12],
               },
               'Solaris' => {
                 'operatingsystem'        => 'Solaris',
-                'operatingsystemrelease' => ['10', '11'],
+                'operatingsystemrelease' => %w[10 11],
               },
               'Windows' => {
                 'operatingsystem'        => 'windows',
@@ -250,21 +250,21 @@ module PDK
               },
               'AIX' => {
                 'operatingsystem'        => 'AIX',
-                'operatingsystemrelease' => ['6.1', '7.1', '7.2']
+                'operatingsystemrelease' => ['6.1', '7.1', '7.2'],
               },
               'Network Devices' => [
-                  {
-                      'operatingsystem' => 'Arista EOS',
-                  },
-                  {
-                      'operatingsystem' => 'Cisco IOS-XR',
-                  },
-                  {
-                      'operatingsystem' => 'Cisco NX-OS',
-                  },
-                  {
-                      'operatingsystem' => 'Cumulus Linux',
-                  },
+                {
+                  'operatingsystem' => 'Arista EOS',
+                },
+                {
+                  'operatingsystem' => 'Cisco IOS-XR',
+                },
+                {
+                  'operatingsystem' => 'Cisco NX-OS',
+                },
+                {
+                  'operatingsystem' => 'Cumulus Linux',
+                },
               ],
             },
             default: [1, 2, 7],
