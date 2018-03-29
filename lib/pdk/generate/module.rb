@@ -215,7 +215,7 @@ module PDK
                 },
                 {
                   'operatingsystem'        => 'Amazon Linux',
-                  'operatingsystemrelease' => ['6', '7'],
+                  'operatingsystemrelease' => ['2'],
                 },
               ],
               'Debian based Linux' => [
